@@ -83,6 +83,9 @@ li {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -91,6 +94,10 @@ li {
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -105,7 +112,16 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+
+figcaption{
+    text-align: center;
+    color: white;
+
 }
 
 /* section 5 media items */
