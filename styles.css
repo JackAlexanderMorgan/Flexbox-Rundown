@@ -13,6 +13,32 @@ header {
     
     
 }
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.push {
+    margin-left: auto;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
 
 
 /* section one flex grow and shrink */
@@ -40,7 +66,7 @@ header {
     background-color: lightgreen;
     
     height: 200px;
-    flex: 1 1 auto;
+    flex: 2 -1 auto;
 }
 
 .box3 {
